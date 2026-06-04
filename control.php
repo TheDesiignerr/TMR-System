@@ -74,7 +74,7 @@ if(empty($flag)) {
                . "\033[96mMaintaining {$cap} Crawlers. Running: {$crawlerCount}\033[39m\n";
 
             postWebhook(
-                "https://discord.com/api/webhooks/1461129649835741245/P5U2EusFf2IymCpK1iEcrzQqBdxrrhZmqfENA7vSBztTdMWCfbGMJ812ijY4v6UWWS0N",
+                "https://discord.com/api/webhooks/webhook-key thiung", // your webhook key was hardcoded
                 "🚢 TMR Cruiser",
                 "✅ Tick Adjustment Completed",
                 "**Cruiser Summary**
